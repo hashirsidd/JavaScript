@@ -5,7 +5,7 @@ input = Math.round(input);
 var inputNum;
 for(i=0 ; i < 4 ; i++){ 
     if(i < 3){
-        inputNum = prompt("Input Your Number")
+        inputNum = parseInt(prompt("Input Your Number"));
             if ( input == inputNum){
             alert("You 'WIN' :D");
        document.write("The Random Number was" + "  " + input + " (:");
