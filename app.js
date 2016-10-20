@@ -64,7 +64,7 @@ for(i=0 ; i < 4 ; i++){
         }
     }
     else{
-        alert("Go Home Idot !! You 'Lose' !!" + "  " +  "The number was" + "  " + input);
+        alert("You 'Lose' !!" + "  " +  "The number was" + "  " + input);
   var userIn = prompt ("Do You want to PLAY Again?" );
     if( userIn === "yes" ){
         playGame();
