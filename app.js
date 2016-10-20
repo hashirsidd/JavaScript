@@ -49,8 +49,6 @@ for(i=0 ; i < 4 ; i++){
             if( userIn === "yes" || "y"){
         playGame();
             }
-       document.write("The Random Number was" + "  " + input + " (:");
-            
     break ;   
     }
             else if(input < inputNum ){
@@ -72,6 +70,7 @@ for(i=0 ; i < 4 ; i++){
         playGame();
     }     
     else if( userIn === "no"){
+        alert("Thanks For playing Good Bye")
     break;
     }
     }
