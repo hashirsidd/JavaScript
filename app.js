@@ -38,17 +38,15 @@ function playGame() {
 
 var input;
 input = Math.random();
-input = (input * 10) + 1;
+input = (input * 10) ;
 input = Math.round(input);
 var inputNum;
 for(i=0 ; i < 4 ; i++){ 
     if(i < 3){
-        inputNum = parseInt(prompt("Input Your Number"));
+        inputNum = parseInt(prompt("Input Number 1-10"));
             if ( input == inputNum){
             alert("You 'WIN' :D" +  "The number was" + "  " + input);
-            if( userIn === "yes" || "y"){
         playGame();
-            }
     break ;   
     }
             else if(input < inputNum ){
